@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Layouts & Responsive Design Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <h1>TechBlog</h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="search-btn">Search</button>
+                <button class="menu-toggle">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container using CSS Grid -->
+    <div class="main-container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Welcome to Modern Web Development</h2>
+                <p>Explore the latest trends in CSS layouts, responsive design, and user experience.</p>
+                <button class="cta-button">Get Started</button>
+            </div>
+        </section>
+
+        <!-- Main Content Area -->
+        <main class="content">
+            <article class="article">
+                <h3>Understanding CSS Grid</h3>
+                <p>CSS Grid is a powerful 2D layout system that allows you to create complex layouts with ease. It's perfect for creating responsive designs that work across all devices.</p>
+                <div class="article-meta">
+                    <span class="date">March 15, 2024</span>
+                    <span class="author">By Jane Doe</span>
+                </div>
+            </article>
+
+            <article class="article">
+                <h3>Mastering Flexbox</h3>
+                <p>Flexbox is ideal for 1D layouts and provides excellent control over alignment and distribution of space. Learn how to use it effectively in your projects.</p>
+                <div class="article-meta">
+                    <span class="date">March 12, 2024</span>
+                    <span class="author">By John Smith</span>
+                </div>
+            </article>
+
+            <!-- Card Grid using Flexbox -->
+            <section class="cards-section">
+                <h3>Featured Topics</h3>
+                <div class="cards-container">
+                    <div class="card">
+                        <h4>Responsive Design</h4>
+                        <p>Learn how to create websites that work on all devices.</p>
+                    </div>
+                    <div class="card">
+                        <h4>CSS Animations</h4>
+                        <p>Add life to your websites with smooth animations.</p>
+                    </div>
+                    <div class="card">
+                        <h4>Performance</h4>
+                        <p>Optimize your CSS for better loading times.</p>
+                    </div>
+                    <div class="card">
+                        <h4>Accessibility</h4>
+                        <p>Make your websites usable for everyone.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <h4>Recent Posts</h4>
+                <ul class="recent-posts">
+                    <li><a href="#">CSS Grid vs Flexbox: When to Use Each</a></li>
+                    <li><a href="#">Mobile-First Design Principles</a></li>
+                    <li><a href="#">Advanced CSS Selectors</a></li>
+                    <li><a href="#">CSS Custom Properties</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-section">
+                <h4>Categories</h4>
+                <div class="categories">
+                    <span class="category-tag">CSS</span>
+                    <span class="category-tag">HTML</span>
+                    <span class="category-tag">JavaScript</span>
+                    <span class="category-tag">Design</span>
+                    <span class="category-tag">UX</span>
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <h4>Newsletter</h4>
+                <p>Stay updated with the latest web development trends.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>TechBlog</h4>
+                <p>Your source for modern web development insights and tutorials.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                    <li><a href="#terms">Terms of Service</a></li>
+                    <li><a href="#sitemap">Sitemap</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter">Twitter</a>
+                    <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                    <a href="#" aria-label="GitHub">GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TechBlog. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
